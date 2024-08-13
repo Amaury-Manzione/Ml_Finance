@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+plotly = "*"
+matplotlib = "*"
+torch = "*"
+tqdm = "*"
+scikit-learn= "*"
+pickle5 = "*"
+polars = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
